@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 html {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
@@ -55,6 +56,7 @@ body:hover {
     font-size: 14px;
 }
 
+
 /** blog-text **/
 
 .blog-text h1 {
@@ -74,15 +76,22 @@ body:hover {
 
 /** user **/
 
+.user {
+    
+}
+
 .user img {
     width: 30px;
-    float: left;
-    vertical-align: middle;
-    
 }
 
 .user p {
     font-size: 13px;
+    margin-left: 8px;
+}
+
+.user p, .user img {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
