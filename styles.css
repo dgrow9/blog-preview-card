@@ -24,7 +24,7 @@ main img {
     border-radius: 15px;
 }
 
-.learning {
+#learning {
     background-color: hsl(47, 88%, 63%);
     border-radius: 3px;
     padding: 5px;
