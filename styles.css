@@ -32,11 +32,11 @@ body:hover {
 
 /** blog-info **/
 
-.blog-info {
+#blog-info {
     padding-top: 20px;
 }
 
-.blog-info img {
+#blog-info img {
     border-radius: 15px;
     display: block;
     margin: auto;
@@ -60,15 +60,15 @@ body:hover {
 
 /** blog-text **/
 
-.blog-text h1 {
+#blog-text h1 {
     font-size: 22px;
 }
 
-.blog-text h1:hover {
+#blog-text h1:hover {
     color: hsl(47, 88%, 63%);
 }
 
-.blog-text p {
+#blog-text p {
     font-size: 15px;
     color: hsl(0, 0%, 50%);
     line-height: 21px;
@@ -78,16 +78,16 @@ body:hover {
 
 /** user **/
 
-.user img {
+#user img {
     width: 30px;
 }
 
-.user p {
+#user p {
     font-size: 13px;
     margin-left: 8px;
 }
 
-.user p, .user img {
+#user p, #user img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -95,11 +95,11 @@ body:hover {
 
 /** combined **/
 
-#learning, .blog-text h1, .user {
+#learning, #blog-text h1, #user {
     font-weight: 700;
 }
 
-.blog-info h4, .blog-text p {
+#date, #blog-text p {
     font-weight: 400;
 }
 
@@ -107,7 +107,7 @@ body:hover {
 /** mobile **/
 
 @media screen and (max-width: 375px) {
-    
+
     body {
         height: 446px;
         width: 320px;
@@ -116,17 +116,13 @@ body:hover {
         left: 50%;
         margin-top: -223px; /** half of height**/
         margin-left: -160px; /** half of width **/
-        background-color: hsl(0, 0%, 100%);
-        border: solid 1px hsl(0, 0%, 7%);
-        border-radius: 15px;
-        box-shadow: 7px 7px hsl(0, 0%, 7%);
     }    
 
-    .blog-info img {
+    #blog-info img {
         width: 280px;
     }
 
-    .blog-text p {
+    #blog-text p {
         width: 280px;
     }
 
