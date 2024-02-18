@@ -15,16 +15,12 @@ body {
     border-radius: 15px;
 }
 
-header, main, footer {
+main {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-header {
-    padding-top: 20px;
-}
-
-header img {
+main img {
     border-radius: 15px;
 }
 
@@ -32,8 +28,4 @@ header img {
     background-color: hsl(47, 88%, 63%);
     border-radius: 3px;
     padding: 5px;
-}
-
-footer {
-    padding-bottom: 20px;
 }
