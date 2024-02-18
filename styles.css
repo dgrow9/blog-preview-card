@@ -8,11 +8,11 @@ html {
 
 body {
     width: 340px;
-    height: 470px;
+    height: 466px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -235px; /** half of height**/
+    margin-top: -233px; /** half of height**/
     margin-left: -170px; /** half of width **/
     background-color: hsl(0, 0%, 100%);
     border: solid 1px hsl(0, 0%, 7%);
@@ -47,21 +47,18 @@ body:hover {
     background-color: hsl(47, 88%, 63%);
     border-radius: 3px;
     padding: 5px;
-    width: 70px;
+    width: 65px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
-.blog-info h4 {
-    font-size: 14px;
+#date {
+    font-size: 13px;
+    margin-top: -5px;
 }
 
 
 /** blog-text **/
-
-.blog-text {
-    margin-top: -3px;
-}
 
 .blog-text h1 {
     font-size: 22px;
@@ -75,14 +72,11 @@ body:hover {
     font-size: 15px;
     color: hsl(0, 0%, 50%);
     line-height: 21px;
+    width: 300px;
 }
 
 
 /** user **/
-
-.user {
-    margin-top: -3px;
-}
 
 .user img {
     width: 30px;
