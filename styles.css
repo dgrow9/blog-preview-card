@@ -7,8 +7,8 @@ html {
 }
 
 body {
-    width: 340px;
     height: 466px;
+    width: 340px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -101,4 +101,33 @@ body:hover {
 
 .blog-info h4, .blog-text p {
     font-weight: 400;
+}
+
+
+/** mobile **/
+
+@media screen and (max-width: 375px) {
+    
+    body {
+        height: 446px;
+        width: 320px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -223px; /** half of height**/
+        margin-left: -160px; /** half of width **/
+        background-color: hsl(0, 0%, 100%);
+        border: solid 1px hsl(0, 0%, 7%);
+        border-radius: 15px;
+        box-shadow: 7px 7px hsl(0, 0%, 7%);
+    }    
+
+    .blog-info img {
+        width: 280px;
+    }
+
+    .blog-text p {
+        width: 280px;
+    }
+
 }
