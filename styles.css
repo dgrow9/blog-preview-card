@@ -1,0 +1,15 @@
+html {
+    background-color: hsl(47, 88%, 63%);
+}
+
+body {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px; /** half of height**/
+    margin-left: -150px; /** half of width **/
+    background-color: hsl(0, 0%, 100%);
+    border: solid 2px hsl(0, 0%, 7%);
+}
