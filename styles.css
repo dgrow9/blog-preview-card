@@ -3,13 +3,26 @@ html {
 }
 
 body {
-    width: 300px;
-    height: 400px;
+    width: 340px;
+    height: 440px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -200px; /** half of height**/
-    margin-left: -150px; /** half of width **/
+    margin-top: -220px; /** half of height**/
+    margin-left: -170px; /** half of width **/
     background-color: hsl(0, 0%, 100%);
     border: solid 2px hsl(0, 0%, 7%);
+}
+
+header, main, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+footer {
+    padding-bottom: 20px;
 }
