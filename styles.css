@@ -28,6 +28,9 @@ body:hover {
     box-shadow: 13px 13px hsl(0, 0%, 7%);
 }
 
+
+/** blog-info **/
+
 .blog-info {
     padding-top: 20px;
 }
@@ -48,26 +51,27 @@ body:hover {
     font-size: 14px;
 }
 
-#learning, .blog-text h1, .user {
-    font-weight: 800;
+.blog-info h4 {
+    font-size: 14px;
 }
 
-.blog-info h4, .blog-text p {
-    font-weight: 600;
-}
-
-.blog-text p {
-    font-size: 15px;
-    color: hsl(0, 0%, 50%)
-}
+/** blog-text **/
 
 .blog-text h1 {
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .blog-text h1:hover {
     color: hsl(47, 88%, 63%);
 }
+
+.blog-text p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%)
+}
+
+
+/** user **/
 
 .user img {
     width: 30px;
@@ -77,5 +81,16 @@ body:hover {
 }
 
 .user p {
-    
+    font-size: 14px;
+}
+
+
+/** combined **/
+
+#learning, .blog-text h1, .user {
+    font-weight: 800;
+}
+
+.blog-info h4, .blog-text p {
+    font-weight: 600;
 }
