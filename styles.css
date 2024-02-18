@@ -24,6 +24,10 @@ main {
     padding-right: 20px;
 }
 
+body:hover {
+    box-shadow: 13px 13px hsl(0, 0%, 7%);
+}
+
 .blog-info {
     padding-top: 20px;
 }
@@ -56,6 +60,10 @@ main {
 
 .blog-text h1 {
     font-size: 23px;
+}
+
+.blog-text h1:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 .user img {
