@@ -45,14 +45,26 @@ main {
     font-weight: 800;
 }
 
-.blog-info h4, .blog-text h3 {
+.blog-info h4, .blog-text p {
     font-weight: 600;
 }
 
 .blog-text p {
-    font-size: 16px;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%)
 }
 
 .blog-text h1 {
     font-size: 23px;
+}
+
+.user img {
+    width: 30px;
+    float: left;
+    vertical-align: middle;
+    
+}
+
+.user p {
+    
 }
