@@ -67,7 +67,8 @@ body:hover {
 
 .blog-text p {
     font-size: 15px;
-    color: hsl(0, 0%, 50%)
+    color: hsl(0, 0%, 50%);
+    line-height: 21px;
 }
 
 
