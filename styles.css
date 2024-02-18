@@ -12,6 +12,7 @@ body {
     margin-left: -170px; /** half of width **/
     background-color: hsl(0, 0%, 100%);
     border: solid 2px hsl(0, 0%, 7%);
+    border-radius: 15px;
 }
 
 header, main, footer {
@@ -21,6 +22,16 @@ header, main, footer {
 
 header {
     padding-top: 20px;
+}
+
+header img {
+    border-radius: 15px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 3px;
+    padding: 5px;
 }
 
 footer {
