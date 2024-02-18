@@ -66,7 +66,7 @@ body:hover {
 }
 
 .blog-text p {
-    font-size: 16px;
+    font-size: 15px;
     color: hsl(0, 0%, 50%)
 }
 
@@ -81,16 +81,16 @@ body:hover {
 }
 
 .user p {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 
 /** combined **/
 
 #learning, .blog-text h1, .user {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .blog-info h4, .blog-text p {
-    font-weight: 600;
+    font-weight: 400;
 }
